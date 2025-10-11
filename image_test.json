@@ -1,0 +1,1 @@
+{"error":{"message":"400: {'error': '/image/generations: Invalid model name passed in model=dall-e-3. Call `/v1/models` to view available models for your key.'}","type":"None","param":"None","code":"400"}}

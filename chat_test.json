@@ -1,0 +1,1 @@
+{"error":{"message":"{'error': '/chat/completions: Invalid model name passed in model=nano-banana-gemini. Call `/v1/models` to view available models for your key.'}","type":"None","param":"None","code":"400"}}

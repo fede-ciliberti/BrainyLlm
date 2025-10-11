@@ -2291,6 +2291,11 @@ class AllCallbacks(LiteLLMPydanticObjectBase):
     )
 
 
+class RedisPipelineIncrementOperation(TypedDict):
+    key: str
+    value: Union[int, float]
+    ttl: Optional[int]
+
 class SpendLogsMetadata(TypedDict):
     """
     Specific metadata k,v pairs logged to spendlogs for easier cost tracking

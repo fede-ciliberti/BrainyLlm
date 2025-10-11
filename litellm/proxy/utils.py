@@ -31,6 +31,7 @@ from litellm.proxy._types import (
     ProxyException,
     SpendLogsMetadata,
     SpendLogsPayload,
+    RedisPipelineIncrementOperation,
 )
 from litellm.types.guardrails import GuardrailEventHooks
 
@@ -90,7 +91,7 @@ from litellm.proxy.hooks import PROXY_HOOKS, get_proxy_hook
 from litellm.proxy.hooks.cache_control_check import _PROXY_CacheControlCheck
 from litellm.proxy.hooks.max_budget_limiter import _PROXY_MaxBudgetLimiter
 from litellm.proxy.hooks.parallel_request_limiter import (
-    _PROXY_MaxParallelRequestsHandler,
+    ParallelRequestLimiter,
 )
 from litellm.proxy.litellm_pre_call_utils import LiteLLMProxyRequestSetup
 from litellm.secret_managers.main import str_to_bool
@@ -170,6 +171,15 @@ class InternalUsageCache:
 
     async def async_set_cache(self, key: str, value: Any, ttl: Optional[int] = None, litellm_parent_otel_span: Any = None):
         await self.dual_cache.async_set_cache(key=key, value=value, ttl=ttl, litellm_parent_otel_span=litellm_parent_otel_span)
+
+    async def async_increment_cache(self, key: str, value: float, litellm_parent_otel_span: Any = None, local_only: bool = False, **kwargs) -> float:
+        return await self.dual_cache.async_increment_cache(key=key, value=value, litellm_parent_otel_span=litellm_parent_otel_span, local_only=local_only, **kwargs)
+
+    async def async_increment_cache_pipeline(self, pipeline_operations: List[RedisPipelineIncrementOperation], litellm_parent_otel_span: Any = None, local_only: bool = False, **kwargs) -> List[Any]:
+        """
+        Executes multiple increment operations in a single pipeline.
+        """
+        return await self.dual_cache.async_increment_cache_pipeline(pipeline_operations=pipeline_operations, litellm_parent_otel_span=litellm_parent_otel_span, local_only=local_only, **kwargs)
 
     async def async_delete_cache(self, key: str, **kwargs):
         await self.dual_cache.async_delete_cache(key=key, **kwargs)
@@ -283,7 +293,7 @@ class ProxyLogging:
         self.internal_usage_cache: InternalUsageCache = InternalUsageCache(
             dual_cache=DualCache(default_in_memory_ttl=1)  # ping redis cache every 1s
         )
-        self.max_parallel_request_limiter = _PROXY_MaxParallelRequestsHandler(
+        self.max_parallel_request_limiter = ParallelRequestLimiter(
             self.internal_usage_cache
         )
         self.max_budget_limiter = _PROXY_MaxBudgetLimiter()

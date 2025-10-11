@@ -73,7 +73,7 @@ RUN prisma generate
 RUN chmod +x docker/entrypoint.sh
 RUN chmod +x docker/prod_entrypoint.sh
 
-EXPOSE 4000/tcp
+EXPOSE 4005/tcp
 
 RUN apk add --no-cache supervisor
 COPY docker/supervisord.conf /etc/supervisord.conf
@@ -81,4 +81,4 @@ COPY docker/supervisord.conf /etc/supervisord.conf
 ENTRYPOINT ["docker/prod_entrypoint.sh"]
 
 # Append "--detailed_debug" to the end of CMD to view detailed debug logs
-CMD ["--port", "4000"]
+CMD ["--port", "4005"]

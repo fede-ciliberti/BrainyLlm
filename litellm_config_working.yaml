@@ -1,0 +1,1508 @@
+model_list:
+  # Flash
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_1"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_2"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_3"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_4"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_5"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_6"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_7"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_8"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_9"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_10"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_11"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_12"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 1
+      cache: true
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_13"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_14"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_15"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_16"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_17"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_18"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_19"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_20"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_21"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_22"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_23"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_24"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_25"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_26"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_27"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_28"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_29"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_30"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_31"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_32"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_34"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_35"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_36"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_37"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_38"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_39"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_40"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_41"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_42"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_43"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_44"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_45"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_46"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_47"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_48"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+  - model_name: gemini-flash
+    litellm_params:
+      model: "gemini/gemini-2.5-flash"
+      api_key: "os.environ/GEMINI_API_KEY_49"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_FLASH_RPM
+      tpm: os.environ/GEMINI_FLASH_TPM
+      weight: 10
+
+  
+  
+  
+  
+  
+  # Gemini 2.5 Pro
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_1"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_2"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_3"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_4"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_5"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_6"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_7"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_8"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_9"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_10"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_11"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_12"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 1
+      cache: true
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_13"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_14"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_15"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_16"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_17"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_18"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_19"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_20"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_21"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_22"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_23"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_24"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_25"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_26"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_27"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_28"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_29"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_30"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_31"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_32"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_34"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_35"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_36"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_37"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_44"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_45"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_46"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_47"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_48"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_49"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+
+  # Modelos adicionales disponibles
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_38"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_39"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_40"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_41"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_42"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_43"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_44"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_45"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_46"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_47"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_48"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+  - model_name: gemini-pro
+    litellm_params:
+      model: "gemini/gemini-2.5-pro"
+      api_key: "os.environ/GEMINI_API_KEY_49"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+
+  # Modelos adicionales disponibles
+
+  - model_name: gemini-pro-vision
+    litellm_params:
+      model: "gemini/gemini-pro-vision"
+      api_key: "os.environ/GEMINI_API_KEY_1"
+      max_tokens: "os.environ/GEMINI_MAX_COMPLETION_TOKENS"
+      temperature: "os.environ/GEMINI_TEMPERATURE"
+      top_p: "os.environ/GEMINI_TOP_P"
+      top_k: "os.environ/GEMINI_TOP_K"
+      timeout: 180 # 3 minutos para llamadas normales
+      stream_timeout: 120 # 2 minutos para streaming
+      request_timeout: 300 # 5 minutos máximo por request
+      rpm: os.environ/GEMINI_PRO_RPM
+      tpm: os.environ/GEMINI_PRO_TPM
+      weight: 10
+
+# Configuración general
+router_settings:
+  routing_strategy: "usage-based-routing-v2"
+
+  allowed_fails: 1
+  cooldown_time: 120 # Tiempo en segundos para enfriar claves agotadas
+  allowed_fails_policy:
+    RateLimitErrorAllowedFails: 1 # Mantener bajo para enfriar rápidamente claves agotadas
+
+  timeout: 120 # Aumentado de 30s a 2 minutos para llamadas no-streaming
+
+  set_verbose: false
+  enable_pre_call_checks: false
+
+  redis_host: "redis" # Nombre del contenedor Redis en Docker
+  redis_port: 6379
+  redis_password: "" # Dejar vacío si no hay password
+  callbacks: ["prometheus"]
+  health_check_interval: 15
+  fallbacks:
+    - gemini-flash: [gemini-flash, gemini-pro]
+    - gemini-pro: [gemini-pro, gemini-flash]
+
+# Configuración de seguridad
+security:
+  enable_api_key_validation: false
+
+# Configuración general
+general_settings:
+  master_key: "sk-1234567890"
+  database_url: "os.environ/DATABASE_URL"
+  background_health_checks: false
+  health_check_interval: 21600
+  store_prompts_in_spend_logs: false
+  global_max_parallel_requests: 44
+
+# Configuración de LiteLLM
+litellm_settings:
+  drop_params: true # Mantener
+  json_logs: true
+  request_timeout: 600 # Aumentado a 10 minutos para mayor estabilidad
+  turn_off_message_logging: true
+  # Configuración básica de cache con Redis
+  cache: true
+  cache_params:
+    type: redis
+    host: redis
+    port: 6379
+    password: ""
+    ttl: 600 # Tiempo de vida en segundos
+  # Configuración de rate limiting básica
+  num_retries: 50
